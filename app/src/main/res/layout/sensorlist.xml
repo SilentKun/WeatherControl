@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/textData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text3press"
+        android:layout_marginStart="77dp"
+        android:layout_marginTop="11dp"
+        android:layout_toEndOf="@+id/text_hum"
+        android:text="Time"
+        android:textColor="#000"
+        android:textSize="14dp" />
+
+    <TextView
+    android:id="@+id/text1temp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentTop="true"
+    android:layout_marginStart="5dp"
+    android:layout_marginTop="5dp"
+    android:text="Temperature:"
+    android:textColor="#000"
+    android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/text_temp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="6dp"
+        android:layout_toEndOf="@+id/text1temp"
+        android:text="value"
+        android:textColor="#000"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/text2hum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text1temp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="7dp"
+        android:text="Humidity:"
+        android:textColor="#000"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/text_hum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="36dp"
+        android:layout_toEndOf="@+id/text2hum"
+        android:text="value"
+        android:textColor="#000"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/text3press"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text1temp"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="-24dp"
+        android:layout_toEndOf="@+id/text_temp"
+        android:text="Pressure:"
+        android:textColor="#000"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/text_press"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/text1temp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="6dp"
+        android:layout_toEndOf="@+id/text3press"
+        android:text="value"
+        android:textColor="#000"
+        android:textSize="18dp" />
+
+
+</RelativeLayout>
